@@ -1,0 +1,33 @@
+.combo-box {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+    -fx-border-color: #000;
+    -fx-border-radius: 7;
+}
+.combo-box:hover{
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
+.combo-box .text-field {
+    -fx-background-color: #a6e3f5;
+    -fx-prompt-text-fill: #000 ;
+}
+
+.combo-box .combo-box-popup .list-view, .combo-box .combo-box-popup .list-cell {
+    -fx-background-color:  white ;
+    -fx-text-fill: #000 ;
+}
+.combo-box .combo-box-popup .list-cell:hover {
+    -fx-text-fill: #000 ;
+    -fx-background-color: #a6e3f5 ;
+}
+
+.combo-box .arrow-button
+{
+    -fx-background-color:  #a6e3f5;
+}
+
+.combo-box .arrow-button .arrow
+{
+    -fx-background-color:  #000
+}
